@@ -1,0 +1,19 @@
+@use 'variables';
+.rodape{
+    background-color: black;
+    padding: 20px;
+    &__coluna{
+        display: flex;
+        justify-content: space-around;
+        
+        &__text{
+            p{
+                color: variables.$textColor;
+            }
+            a{
+                color: variables.$textColor;
+            }
+
+        }
+    }
+}
